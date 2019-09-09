@@ -1,0 +1,5 @@
+PREFIX rank: <http://www.ontotext.com/owlim/RDFRank#>
+SELECT * WHERE {
+  ?s rank:hasRDFRank ?rank .
+}
+ORDER BY DESC(?rank) LIMIT 100

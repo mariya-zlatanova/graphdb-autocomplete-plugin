@@ -1,0 +1,199 @@
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+dbr:Bulgaria rdfs:label "Bulgaria"@zsm , "Bulgaria"@en , "A' Bhulgair"@gd , "An Bhulgáir"@ga , "Belɣarya"@tzm , "Bhulgariya"@nd , "Bhɔgeriya"@vai-latn , "Bilgari"@mfe , "Biligari"@lu , "Biligari"@ln , "Biolgaria"@mg , "Bolgarija"@sl , "Bolqariya"@az , "Bugarska"@hr , "Bugarska"@bs , "Bugarska"@sr-latn , "Bulgaari"@dje , "Bulgaari"@khq , "Bulgaari"@ses , "Bulgaari"@twq , "Bulgaaria"@et , "Bulgaarie"@gsw , "Bulgaariya"@so , "Bulgalia"@kde , "Bulgalia"@ksb , "Bulgari"@dyo , "Bulgari"@kab , "Bulgaria"@id , "Bulgaria"@kea , "Bulgaria"@swh , "Bulgaria"@asa , "Bulgaria"@dav , "Bulgaria"@ebu , "Bulgaria"@guz , "Bulgaria"@jmc , "Bulgaria"@kam , "Bulgaria"@ki , "Bulgaria"@luy , "Bulgaria"@mas , "Bulgaria"@mer , "Bulgaria"@rwk , "Bulgaria"@saq , "Bulgaria"@sn , "Bulgaria"@swc , "Bulgaria"@teo , "Bulgaria"@vun , "Bulgaria"@rof , "Bulgaria"@es , "Bulgaria"@eu , "Bulgaria"@fi , "Bulgaria"@gl , "Bulgaria"@it , "Bulgaria"@ro , "Bulgaria"@br , "Bulgaria"@nn , "Bulgaria"@nb , "Bulgaria"@rm , "Bulgaria"@ast , "Bulgaria"@fo , "Bulgaria"@fil , "Bulgaria"@luo , "Bulgaria"@kl , "Bulgaria"@nmg , "Bulgaria"@ia , "Bulgaria nutome"@ee , "Bulgariab"@naq , "Bulgarie"@fur , "Bulgarie"@wae , "Bulgarie"@fr , "Bulgarien"@de , "Bulgarien"@da , "Bulgarien"@sv , "Bulgarii"@ff , "Bulgarija"@lt , "Bulgarija"@mt , "Bulgarije"@nl , "Bulgaristan"@tr , "Bulgariya"@ha , "Bulgarujo"@eo , "Bulgarye"@af , "Bulga̱a̱ria"@nus , "Bulgària"@ca , "Bulgária"@hu , "Bulgária"@pt , "Bulgária"@se , "Bulgária"@seh , "Bulgārija"@lv , "Bulharsko"@cs , "Bulharsko"@sk , "Buligaliya"@sbp , "Buligari"@bm , "Buligariya"@rn , "Buligaría"@lag , "Bullgari"@sq , "Bulljaarije"@ksh , "Bulugariya"@lg , "Bulugariya"@xog , "Bulugarïi"@sg , "Buləgarí"@ewo , "Bungari"@vi , "Burugariya"@cgg , "Burugariya"@nyn , "Bułgaria"@pl , "Bwlgaria"@cy , "Bùlgarìà"@bas , "Bùugɛlìa"@agq , "Búlgaría"@is , "Bɔlgeria"@ak , "Emetab Bulgaria"@kln , "Hubulgaria"@bez , "Pokalia"@to , "Pulukalíi"@yav , "blɣara"@shi-latn , "bulgariya"@mua , "bulgarí"@ksf , "Βουλγαρία"@el , "Балгарыя"@be , "Болгария"@ru , "Болгария"@kk , "Болгарія"@uk , "Бугарија"@mk , "Бугарска"@sr , "Бугарска"@bs-cyrl , "България"@bg , "ВвърЯщШв"@en-dsrt , "Բուլղարիա"@hy , "בולגריה"@he , "بلغارستان"@fa , "بلغاريا"@ar , "بلغاریا"@fa , "بلغاریه"@ps , "بلغاریہ"@ur , "بَلجیرِیا"@ks , "बल्गेरिया"@mr , "बल्गेरिया"@ne , "बल्गैरिया"@brx , "बुल्गारिया"@hi , "বুলগেরিয়া"@bn , "બલ્ગેરિયા"@gu , "ବୁଲଗେରିଆ"@or , "பல்கேரியா"@ta , "బల్గేరియా"@te , "ಬಲ್ಗೇರಿಯಾ"@kn , "ബൾഗേറിയ"@ml , "බල්ගේරියාව"@si , "บัลแกเรีย"@th , "ບັງກາເລຍ"@lo , "བུལ་ག་རི་ཡ"@dz , "བུལ་ག་རི་ཡ།"@bo , "ဘူဂေးရီးယား"@my , "ბულგარეთი"@ka , "ቡልጌሪያ"@am , "ቡልጌሪያ"@byn , "ቡልጌሪያ"@tig , "ቡልጌሪያ"@ti , "ቡልጌሪያ"@wal , "ᏊᎵᎨᎵᎠ"@chr , "ប៊ុលហ្គារី"@km , "ⴱⵍⵖⴰⵔⵢⴰ"@shi , "ブルガリア"@ja , "保加利亚"@cmn , "保加利亞"@cmn-hant , "ꗂꔠꔸꕩ"@vai , "불가리아"@ko .
+
+dbr:Bulgarian_language rdfs:label "Bulgaria"@zsm , "Bulgarian"@en , "บัลแกเรีย"@th , "ဘူဂေးရီးယား"@my , "Afaan Bulgariya"@om , "An Bhulgáiris"@ga , "Bahasa Bulgaria"@id , "Bahasa Bulgaria"@ms , "Basa Bulgaria"@jv , "Bhɔgerɛŋ"@vai-latn , "Biolgara"@mg , "Bolgaru kalba"@lt-x , "Bolgarščina"@sl , "Bolgár nyelv"@hu , "Bolqar dili"@az , "Bołharšćina"@hsb , "Bugarski"@sr-latn , "Bugarski jezik"@hr , "Bugarski jezik"@bs , "Bugarski jezik"@sh , "Bulagaari senni"@dje , "Bulagaari senni"@khq , "Bulagaari senni"@ses , "Bulagaari senni"@twq , "Bulegari"@lu , "Bulgaaria keel"@et , "Bulgaarisch"@gsw , "Bulgaars"@af , "Bulgaars"@nl , "Bulgaarsk"@fy , "Bulgar"@id , "Bulgar"@oc , "Bulgar dili"@gag , "Bulgara lingvo"@eo , "Bulgarais"@gd , "Bulgaranci"@ha , "Bulgarca"@tr , "Bulgare"@fr , "Bulgareg"@br , "Bulgarek"@kw , "Bulgarian"@fil , "Bulgarian"@tn , "Bulgarian kieli"@fi , "Bulgarian language"@en , "Bulgariana linguo"@io , "Bulgariaǁî gowab"@naq , "Bulgarie leid"@sco , "Bulgariera"@eu , "Bulgariire"@ff , "Bulgarisch"@de , "Bulgarische Sprache"@de , "Bulgariska"@sv , "Bulgariš"@wae , "Bulgaro"@frp , "Bulgarsk"@da , "Bulgarsk"@nn , "Bulgarsk"@no , "Bulgarska rěc"@dsb , "Bulgaru"@mt , "Bulgarya simi"@qu , "Bulgarų kalba"@lt , "Bulgeeriyaan"@so , "Bulgeyrish"@gv , "Bulgàiris"@gd , "Bulgáiris"@ga , "Bulgáriagiella"@se , "Bulgāru valoda"@lv , "Bulharčina"@sk , "Bulharština"@cs , "Bullgarisht"@sq , "Bulljaaresch"@ksh , "Bulugäri"@sg , "Bulğarki"@diq , "Bwlgareg"@cy , "Bölgaars"@li , "Bùugɨlìa"@agq , "Búlgar"@ca , "Búlgarska"@is , "Búlgaru"@ast , "Bɔlgeria kasa"@ak , "Bọlụgarịa"@ig , "Chibulgalia"@kde , "Gjuha bullgare"@sq , "Hibulgaria"@bez , "Hɔp u bûlgâr"@bas , "Ibulgaria"@mgh , "Ichi Bulgariani"@bem , "Idioma bulgaro"@an , "Idioma búlgaro"@es , "Ikibulugariya"@rw , "Ikinyabuligariya"@rn , "Ishibulugalia"@sbp , "Isi-Bulgaria"@xh , "Język bułgarski"@pl , "Kibulgalia"@ksb , "Kibulgaria"@swh , "Kibulgaria"@asa , "Kibulgaria"@dav , "Kibulgaria"@guz , "Kibulgaria"@kam , "Kibulgaria"@ki , "Kibulgaria"@luy , "Kibulgaria"@saq , "Kibulgaria"@swc , "Kibulgaria"@teo , "Kibulgaria"@rof , "Kibulgaria"@luo , "Kibulgaria"@sw , "Kiɛl bulgaria"@nmg , "Kyibulgaryia"@jmc , "Kyibulgaryia"@rwk , "Kyibulgaryia"@vun , "Kĩbulgaria"@ebu , "Kĩbulugĩria"@mer , "Kɨbulugária"@lag , "Lenga bùlgara"@pms , "Lengua bulgara"@lij , "Limba bulgară"@ro , "Lingua Bulgarica"@la , "Lingua bulgara"@it , "Lingua bulgara"@co , "Lingua búlgara"@gl , "Lubulugariya"@lg , "Língua búlgara"@pt , "Olubulugariya"@xog , "Oruburugariya"@cgg , "Oruburugariya"@nyn , "Se-bulgaria"@st , "Tabelɣarit"@tzm , "Tabulgarit"@kab , "Thok bälga̱a̱riani"@nus , "Tiếng Bulgaria"@vi , "Tiếng Bun-ga-ri"@vi , "Tok Balgeria"@tpi , "Urunyabuligariya"@rw , "Wikang Bulgaro"@tl , "Zimanê bulgarî"@ku , "bilgar"@mfe , "bolgarščina"@sl , "bolgár"@hu , "bolqarca"@az , "bugarski"@hr , "bugarski"@bs , "bulgaari"@dyo , "bulgaaria"@et , "bulgar"@fur , "bulgar"@rm , "bulgara"@eo , "bulgare"@fr , "bulgareg"@br , "bulgaria"@fi , "bulgaria"@mua , "bulgariagbe"@ee , "bulgariera"@eu , "bulgariska"@sv , "bulgaro"@it , "bulgaro"@ia , "bulgarsk"@da , "bulgarsk"@nn , "bulgarsk"@nb , "bulgarskt"@fo , "bulgaru"@kea , "bulgară"@ro , "bulgarų"@lt , "bulgálɛ"@yav , "bulgáriagiella"@se , "bulgāru"@lv , "bulharčina"@sk , "bulharština"@cs , "buligarikan"@bm , "bułgarski"@pl , "búlgar"@ca , "búlgaro"@es , "búlgaro"@gl , "búlgaro"@pt , "búlgaro"@seh , "búlgarska"@is , "búlgaru"@ast , "chiBulgarian"@sn , "isi-Bulgari"@zu , "isi-Bulgaria"@nd , "kutitab Bulgaria"@kln , "lea fakapokalia"@to , "libiligali"@ln , "nkʉtʉ́k ɔ́ɔ̄ lBulgaria"@mas , "ribulgarí"@ksf , "tablɣarit"@shi-latn , "Èdè Bugaria"@yo , "Ǹkɔ́bɔ buləgárian"@ewo , "Βουλγαρικά"@el , "Βουλγαρική γλώσσα"@el , "Абылгар бызшәа"@ab , "Балгарская мова"@be , "Баўгарская мова"@be-tarask , "Блъгарьскъ ѩꙁꙑкъ"@cu , "Болгайраг æвзаг"@os , "Болгар йылме"@mhr , "Болгар кыв"@kv , "Болгар кыл"@udm , "Болгар хэл"@mn , "Болгарский язык"@ru , "Болгарська мова"@uk , "Бугарски"@sr , "Бугарски јазик"@mk , "Бугарски језик"@sr , "Булғорӣ"@tg , "Булҕаардыы"@sah , "Български език"@bg , "Забони булғорӣ"@tg , "Полхар чĕлхи"@cv , "балгарская"@be , "болгайраг"@os , "болгар"@kk , "болгарияча"@ky , "болгарский"@ru , "болгарська"@uk , "бугарски"@mk , "бугарски"@bs-cyrl , "български"@bg , "Բուլղարերեն"@hy , "בולגרית"@he , "البلغارية"@ar , "بلغاري"@ps , "بلغاريايي ژبه"@ps , "بلغاری"@fa , "بلغاری"@ur , "بلغاری"@pnb , "بۇلغارىيە تىلى"@ug , "بینا"@ks , "زبان بلغاری"@fa , "لغة بلغارية"@ar , "बल्गेरियन"@mr , "बल्गेरियन"@knn , "बल्गेरियन भाषा"@mr , "बल्गेरियाई"@hi , "बल्गैरियन्"@brx , "बुल्गारियन भाषा"@hi , "बुल्गेरियाली"@ne , "বুলগেরিয়"@bn , "বুলগেরীয় ভাষা"@bn , "બલ્ગેરિયન"@gu , "ବୁଲଗେରିଆନ୍"@or , "பல்கேரிய மொழி"@ta , "பல்கேரியன்"@ta , "బల్గేరియన్"@te , "ಬಲ್ಗೇರಿಯನ್"@kn , "ബൾഗേറിയൻ"@ml , "බල්ගේරියානු"@si , "ภาษาบัลแกเรีย"@th , "ບຸນກາຣີ"@lo , "བཱལ་གེ་རི་ཡཱན་ཁ"@dz , "ბულგარული"@ka , "ბულგარული ენა"@ka , "ቡልጋሪኛ"@am , "ቡልጋሪኛ"@byn , "ቡልጋሪኛ"@tig , "ቡልጋሪኛ"@ti , "ប៊ុលហ្ការី"@km , "ⵜⴰⴱⵍⵖⴰⵔⵉⵜ"@shi , "ブルガリア語"@ja , "保加利亚文"@cmn , "保加利亚语"@zh , "保加利亞文"@cmn-hant , "保加利亞話"@yue , "ꗂꔠꗸꘋ"@vai , "불가리아어"@ko .
+
+dbr:Bulgarians rdfs:label "Bulgarians"@en .
+
+dbr:Bulgaria_national_football_team rdfs:label "Bulgaria national football team"@en .
+
+dbr:Bulgarian_A_Football_Group rdfs:label "Bulgarian A Football Group"@en .
+
+dbr:Bulgaria_national_under-21_football_team rdfs:label "Bulgaria national under-21 football team"@en .
+
+dbr:Bulgarian_Orthodox_Church rdfs:label "Bulgarian Orthodox Church"@en .
+
+dbr:Bulgarian_Turks rdfs:label "Bulgarian Turks"@en .
+
+dbr:Bulgarian_Cup rdfs:label "Bulgarian Cup"@en .
+
+dbr:Bulgaria_national_under-19_football_team rdfs:label "Bulgaria national under-19 football team"@en .
+
+dbr:Bulgarian_lev rdfs:label "Bulgarian Lev"@en , "Bulgarian lev"@en .
+
+dbr:Bulgarian_B_Professional_Football_Group rdfs:label "Bulgarian B Professional Football Group"@en .
+
+dbr:Bulgarian_Communist_Party rdfs:label "Bulgarian Communist Party"@en .
+
+dbr:Bulgarian_Football_Union rdfs:label "Bulgarian Football Union"@en .
+
+dbr:Bulgarian_Academy_of_Sciences rdfs:label "Bulgarian Academy of Sciences"@en .
+
+dbr:Bulgaria_national_under-17_football_team rdfs:label "Bulgaria national under-17 football team"@en .
+
+<http://dbpedia.org/resource/Bulgarian_coup_d'état_of_1944> rdfs:label "Bulgarian coup d'état of 1944"@en .
+
+dbr:Bulgarian_Socialist_Party rdfs:label "Bulgarian Socialist Party"@en .
+
+dbr:Bulgarian_National_Television rdfs:label "Bulgarian National Television"@en .
+
+dbr:Bulgarian_Empire rdfs:label "Bulgarian Empire"@en .
+
+dbr:Bulgarian_National_Revival rdfs:label "Bulgarian National Revival"@en .
+
+dbr:Bulgarian_V_AFG rdfs:label "Bulgarian V AFG"@en .
+
+<http://dbpedia.org/resource/Bulgarian_parliamentary_election,_2013> rdfs:label "Bulgarian parliamentary election, 2013"@en .
+
+dbr:Bulgarian_Air_Force rdfs:label "Bulgarian Air Force"@en .
+
+dbr:Bulgarian_Exarchate rdfs:label "Bulgarian Exarchate"@en .
+
+dbr:Bulgaria_Air rdfs:label "Bulgaria Air"@en .
+
+dbr:Bulgarian_Navy rdfs:label "Bulgarian Navy"@en .
+
+dbr:Bulgarian_Black_Sea_Coast rdfs:label "Bulgarian Black Sea Coast"@en .
+
+dbr:Bulgarian_mafia rdfs:label "Bulgarian mafia"@en .
+
+dbr:Volga_Bulgaria rdfs:label "Volga Bulgaria"@en .
+
+dbr:First_Bulgarian_Empire rdfs:label "First Bulgarian Empire"@en .
+
+dbr:Second_Bulgarian_Empire rdfs:label "Second Bulgarian Empire"@en .
+
+dbr:Category:Bulgarian_A_Football_Group_players rdfs:label "Bulgarian A Football Group players"@en .
+
+dbr:Category:Bulgaria_and_the_Antarctic rdfs:label "Bulgaria and the Antarctic"@en .
+
+dbr:Category:Bulgarian_footballers rdfs:label "Bulgarian footballers"@en .
+
+<http://dbpedia.org/resource/Ruse,_Bulgaria> rdfs:label "Ruse, Bulgaria"@en .
+
+dbr:2013_Bulgarian_protests_against_the_first_Borisov_cabinet rdfs:label "2013 Bulgarian protests against the first Borisov cabinet"@en .
+
+dbr:Category:Bulgaria rdfs:label "Bulgaria"@en .
+
+dbr:Category:Bulgarian_sportspeople rdfs:label "Bulgarian sportspeople"@en .
+
+<http://dbpedia.org/resource/Macedonians_(Bulgarians)> rdfs:label "Macedonians (Bulgarians)"@en .
+
+dbr:Category:Bulgarian_people_by_occupation rdfs:label "Bulgarian people by occupation"@en .
+
+dbr:Category:Bulgaria_international_footballers rdfs:label "Bulgaria international footballers"@en .
+
+dbr:Category:Bulgarian_expatriates rdfs:label "Bulgarian expatriates"@en .
+
+dbr:Serbo-Bulgarian_War rdfs:label "Serbo-Bulgarian War"@en .
+
+dbr:Category:Bulgarian_films rdfs:label "Bulgarian films"@en .
+
+<http://dbpedia.org/resource/BTV_(Bulgaria)> rdfs:label "BTV (Bulgaria)"@en .
+
+dbr:Provinces_of_Bulgaria rdfs:label "Provinces of Bulgaria"@en .
+
+dbr:Municipalities_of_Bulgaria rdfs:label "Municipalities of Bulgaria"@en .
+
+<http://dbpedia.org/resource/2013–14_Bulgarian_protests_against_the_Oresharski_cabinet> rdfs:label "2013–14 Bulgarian protests against the Oresharski cabinet"@en .
+
+dbr:Kingdom_of_Bulgaria rdfs:label "Kingdom of Bulgaria"@en .
+
+<http://dbpedia.org/resource/National_Assembly_(Bulgaria)> rdfs:label "National Assembly (Bulgaria)"@en .
+
+dbr:Samuel_of_Bulgaria rdfs:label "Samuel of Bulgaria"@en .
+
+dbr:List_of_Bulgarian_monarchs rdfs:label "List of Bulgarian monarchs"@en .
+
+dbr:History_of_Bulgaria rdfs:label "History of Bulgaria"@en .
+
+<http://dbpedia.org/resource/List_of_Bulgarian_football_transfers_winter_2015–16> rdfs:label "List of Bulgarian football transfers winter 2015–16"@en .
+
+dbr:Principality_of_Bulgaria rdfs:label "Principality of Bulgaria"@en .
+
+dbr:Demographics_of_Bulgaria rdfs:label "Demographics of Bulgaria"@en .
+
+dbr:Old_Great_Bulgaria rdfs:label "Old Great Bulgaria"@en .
+
+dbr:List_of_Bulgarian_football_transfers_summer_2013 rdfs:label "List of Bulgarian football transfers summer 2013"@en .
+
+dbr:Kaloyan_of_Bulgaria rdfs:label "Kaloyan of Bulgaria"@en .
+
+<http://dbpedia.org/resource/List_of_Bulgarian_football_transfers_winter_2013–14> rdfs:label "List of Bulgarian football transfers winter 2013–14"@en .
+
+dbr:Asparukh_of_Bulgaria rdfs:label "Asparukh of Bulgaria"@en .
+
+<http://dbpedia.org/resource/People's_Republic_of_Bulgaria> rdfs:label "People's Republic of Bulgaria"@en .
+
+dbr:Boris_III_of_Bulgaria rdfs:label "Boris III of Bulgaria"@en .
+
+dbr:Ferdinand_I_of_Bulgaria rdfs:label "Ferdinand I of Bulgaria"@en .
+
+dbr:Category:Footballers_in_Bulgaria_by_club rdfs:label "Footballers in Bulgaria by club"@en .
+
+dbr:Simeon_I_of_Bulgaria rdfs:label "Simeon I of Bulgaria"@en .
+
+dbr:Princess_Kalina_of_Bulgaria rdfs:label "Princess Kalina of Bulgaria"@en .
+
+dbr:Romani_people_in_Bulgaria rdfs:label "Romani people in Bulgaria"@en .
+
+dbr:Prince_Kiril_of_Bulgaria rdfs:label "Prince Kiril of Bulgaria"@en .
+
+dbr:American_University_in_Bulgaria rdfs:label "American University in Bulgaria"@en .
+
+dbr:Princess_Nadezhda_of_Bulgaria rdfs:label "Princess Nadezhda of Bulgaria"@en .
+
+dbr:Category:Treaties_of_Bulgaria rdfs:label "Treaties of Bulgaria"@en .
+
+dbr:Boris_I_of_Bulgaria rdfs:label "Boris I of Bulgaria"@en .
+
+dbr:Princess_Eudoxia_of_Bulgaria rdfs:label "Princess Eudoxia of Bulgaria"@en .
+
+dbr:Category:Seasons_in_Bulgarian_football rdfs:label "Seasons in Bulgarian football"@en .
+
+dbr:Category:Provinces_of_Bulgaria rdfs:label "Provinces of Bulgaria"@en .
+
+dbr:Category:Villages_in_Bulgaria rdfs:label "Villages in Bulgaria"@en .
+
+dbr:Category:Wars_involving_Bulgaria rdfs:label "Wars involving Bulgaria"@en .
+
+dbr:Category:Municipalities_of_Bulgaria rdfs:label "Municipalities of Bulgaria"@en .
+
+dbr:Category:Towns_in_Bulgaria rdfs:label "Towns in Bulgaria"@en .
+
+dbr:Category:People_of_Bulgarian_descent rdfs:label "People of Bulgarian descent"@en .
+
+dbr:Category:Expatriates_in_Bulgaria rdfs:label "Expatriates in Bulgaria"@en .
+
+dbr:Prime_Minister_of_Bulgaria rdfs:label "Prime Minister of Bulgaria"@en .
+
+dbr:Foreign_relations_of_Bulgaria rdfs:label "Foreign relations of Bulgaria"@en .
+
+dbr:Roman_Catholicism_in_Bulgaria rdfs:label "Roman Catholicism in Bulgaria"@en .
+
+dbr:Category:Football_clubs_in_Bulgaria rdfs:label "Football clubs in Bulgaria"@en .
+
+dbr:Princess_Marie_Louise_of_Bulgaria rdfs:label "Princess Marie Louise of Bulgaria"@en .
+
+dbr:Category:Expatriate_footballers_in_Bulgaria rdfs:label "Expatriate footballers in Bulgaria"@en .
+
+<http://dbpedia.org/resource/Union_of_Democratic_Forces_(Bulgaria)> rdfs:label "Union of Democratic Forces (Bulgaria)"@en .
+
+dbr:List_of_postal_codes_in_Bulgaria rdfs:label "List of postal codes in Bulgaria"@en .
+
+<http://dbpedia.org/resource/Institute_of_Solid_State_Physics_(Bulgaria)> rdfs:label "Institute of Solid State Physics (Bulgaria)"@en .
+
+dbr:History_of_the_Jews_in_Bulgaria rdfs:label "History of the Jews in Bulgaria"@en .
+
+dbr:List_of_cities_and_towns_in_Bulgaria rdfs:label "List of cities and towns in Bulgaria"@en .
+
+<http://dbpedia.org/resource/Category:Treaties_of_the_People's_Republic_of_Bulgaria> rdfs:label "Treaties of the People's Republic of Bulgaria"@en .
+
+dbr:Category:People_by_city_or_town_in_Bulgaria rdfs:label "People by city or town in Bulgaria"@en .
