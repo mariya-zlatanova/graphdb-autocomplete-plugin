@@ -168,7 +168,7 @@
         <dependency>
             <groupId>com.ontotext.graphdb.plugins</groupId>
             <artifactId>rdfrank-plugin</artifactId>
-            <version>1.0.0-TR3</version>
+            <version>1.0.0-RC1</version>
             <scope>test</scope>
         </dependency>
 
@@ -262,8 +262,8 @@
     </distributionManagement>
 
     <scm>
-        <connection>scm:git:https://github.com/Ontotext-AD/graphdb-autocomplete-plugin.git</connection>
-        <developerConnection>scm:git:https://github.com/Ontotext-AD/graphdb-autocomplete-plugin.git</developerConnection>
+        <connection>scm:git:git@github.com:Ontotext-AD/graphdb-autocomplete-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:Ontotext-AD/graphdb-autocomplete-plugin.git</developerConnection>
         <url>https://github.com/Ontotext-AD/graphdb-autocomplete-plugin</url>
         <tag>HEAD</tag>
     </scm>
